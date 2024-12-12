@@ -1,3 +1,4 @@
+import { MapNewRoute } from "./components/MapNewRoute";
 import { NewRouteForm } from "./components/NewRouteForm";
 
 export async function searchDirections(source: string, destination: string) {
@@ -157,6 +158,7 @@ export async function NewRoutePage({
           </div>
         )}
       </div>
+      <MapNewRoute directionsData={directionsData} />
     </div>
   );
 }
