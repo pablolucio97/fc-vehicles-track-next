@@ -72,7 +72,7 @@ export async function NewRoutePage({
   return (
     <div className="flex flex-1 w-full h-full">
       <div className="w-1/3 p-4 h-full">
-        <h4 className="text-3xl text-contrast mb-2">Nova rota</h4>
+        <h4 className="text-3xl text-primary mb-2">Nova rota</h4>
         <form className="flex flex-col space-y-4" method="get">
           <div className="relative">
             <input
